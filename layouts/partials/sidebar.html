@@ -210,7 +210,7 @@
     {{ if .Site.Params.bookmarks }}
     <section>
         <hr>
-        <h5>QUICK LINKS</h5>
+        <h5>外部リンク</h5>
         <ul class="list-inline">
             {{ range .Site.Params.bookmark_link }}
             <li><a target="_blank" href="{{.href }}">{{.title}}</a></li>
@@ -222,7 +222,7 @@
     {{ if .Site.Params.featured_tags }}
     <section>
         <hr class="hidden-sm hidden-xs">
-        <h5>FEATURED TAGS</h5>
+        <h5>タグ</h5>
         <div class="tags">
             {{ $featured_condition_size := .Site.Params.featured_condition_size }}
             {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
