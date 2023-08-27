@@ -190,3 +190,13 @@ button.close {
     padding: 15px 0;
     display: none;
 }
+
+.portrait {
+  width: 200px;
+  height: 200px;
+  background-position: 50% 10%;
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+}
